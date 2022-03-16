@@ -1,0 +1,9 @@
+PouDep.Cache;schema 1
+0,subir_bajar,3,FB
+1,modo_manual,3,FB
+2,falla_motor,3,FB
+3,partir_parar,3,FB
+4,ingreso_pallet,3,FB
+5,parada_secuencial,3,FB
+6,Main,2,PG; 2,falla_motor; 1,modo_manual; 0,subir_bajar; 3,partir_parar; 4,ingreso_pallet; 5,parada_secuencial
+7,STD_TSK,1,TA; 6,Main

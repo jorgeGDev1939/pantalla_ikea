@@ -1,0 +1,13 @@
+partir
+
+parten motores modo directo subida
+
+si se activa alguno de los sensores se detiene m1 y m2 del piso 2 hasta que se active alguno de los sensores 
+de acumulacion.
+
+cuando el pallet llega al sensor anterior al ascensor, se detiene el motor.
+si el motor esta desactivado y se pone en true el sensor anterior, se detiene el motor.
+
+hasta que llega hasta el ultimo motor y activa alarma linea llena.
+
+cuando el sensor del ascensor esta activo porque esta en el piso 2, se activa los utlimos 2 motores paa llenar el ascensor.

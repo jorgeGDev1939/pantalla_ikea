@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceProfile DeviceProfileName="AXC 1050 v3.0.4 (Core: 3.2.1) Rev. 2" DeviceProfileVersion="3.0.6" UpdateType="AskUser">
+  <CILGenerator Name="Ade.Eclr.CilGenerator" Version="3.3.0" IsNative="false" />
+  <CILCompiler Prefix="cilc" ProcessorType="nios2" ProgrammingModel="gcc3" Version="3.0.0" CompilerOptions="2" />
+  <SimulationSupported>false</SimulationSupported>
+  <MetaDump Version="1.1.0" />
+  <ImageBuilder Version="1.0.0" />
+  <Assembly Name="Bit_Util" Version="1.2.0" IsNative="false" />
+  <Assembly Name="convert" Version="1.0.0" IsNative="true" />
+  <Assembly Name="eclriodrv_axio" Version="1.0.0" IsNative="true" />
+  <Assembly Name="eclrIoDrv_PN" Version="2.1.0" IsNative="true" />
+  <Assembly Name="eclriodrv_mbc" Version="2.0.0" IsNative="true" />
+  <Assembly Name="eclriodrv_mbs" Version="2.0.0" IsNative="true" />
+  <Assembly Name="eclrIoDrv_PND30" Version="2.0.0" IsNative="true" />
+  <Assembly Name="eclriodrv_iec61850" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_ax_control" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_cpu_ctrl" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_ip" Version="1.0.26" IsNative="true" />
+  <Assembly Name="fb_ip_info" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_IpTime" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_file_notify" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_modbus_async_rw" Version="2.0.0" IsNative="true" />
+  <Assembly Name="fb_pdi_read" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_pdi_write" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_addr_to_id" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_id_to_addr" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_ralrm" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_rdrec" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_wrrec" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_ar_mgt" Version="1.0.0" IsNative="true" />
+  <Assembly Name="fb_eth_send" Version="1.0.0" IsNative="true" />
+  <Assembly Name="func_utc" Version="1.0.0" IsNative="true" />
+  <Assembly Name="sysvar512" Version="1.0.0" IsNative="true" />
+  <Assembly Name="LICENSE" Version="1.0.2" IsNative="true" />
+  <Assembly Name="ProConOS" Version="1.5.3" IsNative="true" />
+  <Assembly Name="mscorlib" Version="3.0.0" IsNative="true" />
+  <Assembly Name="system" Version="3.0.0" IsNative="true" />
+  <Assembly Name="system.core" Version="3.0.0" IsNative="true" />
+  <Assembly Name="pcoslib" Version="3.0.0" IsNative="true" />
+  <Assembly Name="eclrlib" Version="3.0.0" IsNative="true" />
+  <Assembly Name="Iec61131Standard" Version="1.9.2" IsNative="false" />
+  <Assembly Name="dummyio" Version="1.4.0" IsNative="false" />
+  <DeviceDescription CPUType="769" MaximumProgramSize="1572864" MaximumDataSize="2097148" MaximumRetainDataSize="49144" MaximumImageSize="67108864" MaximumImageFilesSize="131072" IsDownloadChangesCapable="true" ScheduleInterval="1000" ThreadingPriorityLevel="19" ThreadingType="Preemptive" LogicAnalyzerState="Inactive" RedundancyRole="">
+    <Assembly Name="mscorlib" Version="3.1.0" IsNative="true" />
+    <Assembly Name="eclrlib" Version="3.1.0" IsNative="true" />
+    <Assembly Name="pcoslib" Version="3.1.0" IsNative="true" />
+    <Assembly Name="ilc150" Version="1.0.1" IsNative="true" />
+    <Assembly Name="Ilc150Dlc" Version="2.0.0" IsNative="true" />
+    <Assembly Name="SysVar512" Version="1.0.0" IsNative="true" />
+    <Assembly Name="AddLog" Version="0.0.0" IsNative="true" />
+    <Assembly Name="fb_ip" Version="1.0.26" IsNative="true" />
+    <Assembly Name="fb_IpTime" Version="1.1.0" IsNative="true" />
+    <Assembly Name="fb_ip_info" Version="1.0.0" IsNative="true" />
+    <Assembly Name="LICENSE" Version="1.0.2" IsNative="true" />
+    <Assembly Name="func_utc" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_cpu_ctrl" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_file_notify" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_eth_send" Version="1.0.0" IsNative="true" />
+    <Assembly Name="eclriodrv_axio" Version="1.1.0" IsNative="true" />
+    <Assembly Name="eclriodrv_iec61850" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_pdi_write" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_pdi_read" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_ax_control" Version="1.0.0" IsNative="true" />
+    <Assembly Name="eclrIoDrv_PN" Version="2.1.0" IsNative="true" />
+    <Assembly Name="fb_addr_to_id" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_id_to_addr" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_ralrm" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_rdrec" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_wrrec" Version="1.0.0" IsNative="true" />
+    <Assembly Name="fb_ar_mgt" Version="1.0.0" IsNative="true" />
+    <Assembly Name="eclrIoDrv_PND30" Version="2.1.0" IsNative="true" />
+    <Assembly Name="eclriodrv_mbc" Version="2.0.0" IsNative="true" />
+    <Assembly Name="eclriodrv_mbs" Version="2.0.0" IsNative="true" />
+    <Assembly Name="fb_modbus_async_rw" Version="2.0.0" IsNative="true" />
+  </DeviceDescription>
+  <VirtualLimitation UserCodeSize="1048576" UserCodeSizeWarningLevel="1000000" DataSize="-1" DataSizeWarningLevel="-1" RetainDataSize="-1" RetainDataSizeWarningLevel="-1" />
+  <DownloadPouInfoList>true</DownloadPouInfoList>
+  <DownloadSfcPouList>true</DownloadSfcPouList>
+  <OnlineIncludeFile>.\_s49AXL\files.ini</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49AXL\config.svc</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49AXL\AXLDiag.zip</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49AXL\Data.INI</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49AXL\Project.ini</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49AXL\PNDEV1.xml</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49PNIO\ippnio.xml</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49PNIO\pnio.ini</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49PNIO\IPPNIO.zip</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49Modbus\ModbusCfg4.bin</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49Modbus\ModbusCfg4.xml</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49Modbus\ModbusServer.bin</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\IMasterPhoenix6_10_00_TD.jar</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\MsgBox_TD.teq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\Template_11.teq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\Template_1.itq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I1.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I2.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I3.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I4.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I5.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I1_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I2_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I3_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I4_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T1_I5_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\Template_21.teq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\Template_2.itq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I1.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I2.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I3.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I4.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I5.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I1_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I2_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I3_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I4_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T2_I5_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\Template_31.teq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\Template_3.itq</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I1.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I2.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I3.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I4.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I5.tcr</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I1_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I2_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I3_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I4_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\WEBS\T3_I5_entry.html</OnlineIncludeFile>
+  <OnlineIncludeFile>.\PDD.XML</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49IEC61850\varList.csv</OnlineIncludeFile>
+  <OnlineIncludeFile>.\_s49IEC61850\IEC61850.ini</OnlineIncludeFile>
+  <OnlineUploadFile>.\_s49AXL\old\Data.INI</OnlineUploadFile>
+  <OnlineUploadFile>.\_s49PNIO\old\pnio.ini</OnlineUploadFile>
+  <TaskProperties MinimumInterval="1000" MaximumInterval="1800000000" DefaultIntervalNewTask="100000" MinimumWatchdog="1000" MaximumWatchdog="5000000" DefaultWatchdogNewTask="100000" MaximumUserTasks="16" TaskTimeResolution="1000" AvailablePriorities="16" UniquePriorities="false" />
+</ResourceProfile>

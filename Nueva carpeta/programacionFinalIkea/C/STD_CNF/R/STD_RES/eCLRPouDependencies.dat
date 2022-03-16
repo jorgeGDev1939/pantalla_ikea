@@ -1,0 +1,8 @@
+PouDep.Cache;schema 1
+0,Motor,3,FB
+1,Partir_parar,3,FB
+2,cortar_motor,3,FB
+3,Partida_motor,3,FB
+4,Parada_emergencia,3,FB
+5,Main,2,PG; 1,Partir_parar; 4,Parada_emergencia; 3,Partida_motor; 2,cortar_motor; 0,Motor
+6,STD_TSK,1,TA; 5,Main

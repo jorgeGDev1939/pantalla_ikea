@@ -1,0 +1,12 @@
+D:\Proyectos\IKEA\programacionFinalIkea\POE\Partir_parar\Partir_parar.gb	14	1	14	1	0006
+*	15	1	15	1	000C
+*	8	1	8	1	0012
+*	1	1	1	1	0013
+*	16	1	16	1	001E
+*	17	1	17	1	0024
+*	12	1	12	1	002A
+*	20	1	20	1	002B
+*	2	1	2	1	002E
+*	4	1	4	1	0039
+*	3	1	3	1	003F
+*	13	1	13	1	004A

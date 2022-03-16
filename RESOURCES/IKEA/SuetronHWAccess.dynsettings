@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<JobList>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 1</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="GET_BACKLIGHT_STATE" type="4" offset="0" size="2">GET_BACKLIGHT_STATE</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="GET_BACKLIGHT_STATE" DeviceAddressAccessType="READ" DeviceAddressSize="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 2</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="GET_BRIGHTNESS_VALUE" type="4" offset="0" size="2">GET_BRIGHTNESS_VALUE</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="GET_BRIGHTNESS_VALUE" DeviceAddressAccessType="READ" DeviceAddressSize="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 3</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="SET_BUZZER_ON_OFF" type="4" offset="0" size="2">SET_BUZZER_ON_OFF</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="SET_BUZZER_ON_OFF" DeviceAddressAccessType="WRITE" DeviceAddressSize="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 4</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="SET_BRIGHTNESS_VALUE" type="4" offset="0" size="2">SET_BRIGHTNESS_VALUE</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="SET_BRIGHTNESS_VALUE" DeviceAddressAccessType="WRITE" DeviceAddressSize="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 5</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="SET_ALARM_BRIGHTNESS_STATE" type="4" offset="0" size="2">SET_ALARM_BRIGHTNESS_STATE</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="SET_ALARM_BRIGHTNESS_STATE" DeviceAddressAccessType="WRITE" DeviceAddressSize="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 6</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="SET_ALARM_BRIGHTNESS_VALUE" type="4" offset="0" size="2">SET_ALARM_BRIGHTNESS_VALUE</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="SET_ALARM_BRIGHTNESS_VALUE" DeviceAddressAccessType="WRITE" DeviceAddressSize="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="2000" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" ExpandGroup1="0">DynTask 7</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="SET_BACKLIGHT_ON_OFF" type="4" offset="0" size="2">SET_BACKLIGHT_ON_OFF</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="2" DeviceAddressName="SET_BACKLIGHT_ON_OFF" DeviceAddressAccessType="WRITE" DeviceAddressSize="1"/>
+</Job>
+</JobList>
+<DynamicJobMap>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CREAD</KeyName>
+<JobName>DynTask 2</JobName>
+</DynKey>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CREAD</KeyName>
+<JobName>DynTask 1</JobName>
+</DynKey>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CWRITE</KeyName>
+<JobName>DynTask 7</JobName>
+</DynKey>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CWRITE</KeyName>
+<JobName>DynTask 6</JobName>
+</DynKey>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CWRITE</KeyName>
+<JobName>DynTask 5</JobName>
+</DynKey>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CWRITE</KeyName>
+<JobName>DynTask 4</JobName>
+</DynKey>
+<DynKey>
+<KeyName>Default StationJ1A2F2S00000CWRITE</KeyName>
+<JobName>DynTask 3</JobName>
+</DynKey>
+</DynamicJobMap>
+</DriverSettings>

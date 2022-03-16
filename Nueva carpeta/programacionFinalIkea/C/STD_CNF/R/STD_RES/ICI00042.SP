@@ -1,0 +1,9 @@
+D:\Proyectos\IKEA\programacionFinalIkea\POE\Parada_emergencia\Parada_emergencia.gb	4	1	4	1	0001
+*	5	1	5	1	0007
+*	3	1	3	1	000D
+*	13	1	13	1	000E
+*	8	1	8	1	0011
+*	9	1	9	1	0017
+*	6	1	6	1	001D
+*	10	1	10	1	0023
+*	7	1	7	1	0029

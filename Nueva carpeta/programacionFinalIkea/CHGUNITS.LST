@@ -1,0 +1,10 @@
+(*
+NPOU: 7
+*)
+FB	Mantenimiento
+FB	Parada_emergencia
+FB	Partir_parar
+FB	Motor
+FB	Partida_motor
+FB	cortar_motor
+PG	Main

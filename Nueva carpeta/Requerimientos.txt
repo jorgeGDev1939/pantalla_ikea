@@ -1,0 +1,18 @@
+
+PLC = AXC 1050;
+HMI=TP6000;
+La programacion del sistema sera hecha en PCworx con visu+ para la pantalla hmi.
+
+Requisitos minimos de la logica del sistema.
+
+-Partida de motores.
+-Parada de motores.
+
+-Seleccion de direccion de partida de motores.
+cuando el selector=0; direccion de los motores es directa.
+cuando el selector=1; direccion de los motores es inversa.
+
+Cuando el sensor limite del ascensor se enciende por mas de 5s, se para el motor correspondiente.
+Cuando el sensor sub limite del ascensor y el motor final estan parados, comienzan a detenerse correspondientes de los sensores que vayan siendo tapados hasta llegar al inicio de linea con la acumulacion.
+
+Cuando el sensor limite es activado, llama activar ascensor ,

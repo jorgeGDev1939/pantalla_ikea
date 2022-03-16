@@ -1,0 +1,781 @@
+195
+82
+0 0 194 0
+@V2 2 RESOURCE STD_RES 0 0 0
+	
+86
+193 1 0 0
+@V2 10 @ MainV 0 0 0
+F C\STD_CNF\R\STD_RES\MainV.vb
+86
+194 1 0 0
+@V2 10 @ Global_Variables 0 0 0
+F C\STD_CNF\R\STD_RES\Global_Variables.vb
+12
+158 1 34 0
+@V2 12 @ FUNCTIONS 0 0 0
+	
+78
+159 2 0 0
+@V2 6 MAX MAX 0 34 0
+	
+78
+160 2 0 0
+@V2 6 MIN MIN 0 33 0
+	
+78
+161 2 0 0
+@V2 6 NEG NEG 0 32 0
+	
+78
+162 2 0 0
+@V2 6 ATAN ATAN 0 31 0
+	
+78
+163 2 0 0
+@V2 6 ACOS ACOS 0 30 0
+	
+78
+164 2 0 0
+@V2 6 ASIN ASIN 0 29 0
+	
+78
+165 2 0 0
+@V2 6 TAN TAN 0 28 0
+	
+78
+166 2 0 0
+@V2 6 COS COS 0 27 0
+	
+78
+167 2 0 0
+@V2 6 SIN SIN 0 26 0
+	
+78
+168 2 0 0
+@V2 6 EXP EXP 0 25 0
+	
+78
+169 2 0 0
+@V2 6 LOG LOG 0 24 0
+	
+78
+170 2 0 0
+@V2 6 LN LN 0 23 0
+	
+78
+171 2 0 0
+@V2 6 SQRT SQRT 0 22 0
+	
+78
+172 2 0 0
+@V2 6 ABS ABS 0 21 0
+	
+78
+173 2 0 0
+@V2 6 ROL ROL 0 20 0
+	
+78
+174 2 0 0
+@V2 6 ROR ROR 0 19 0
+	
+78
+175 2 0 0
+@V2 6 SHR SHR 0 18 0
+	
+78
+176 2 0 0
+@V2 6 SHL SHL 0 17 0
+	
+78
+177 2 0 0
+@V2 6 MOD MOD 0 16 0
+	
+78
+178 2 0 0
+@V2 6 DIV DIV 0 15 0
+	
+78
+179 2 0 0
+@V2 6 SUB SUB 0 14 0
+	
+78
+180 2 0 0
+@V2 6 MUL MUL 0 13 0
+	
+78
+181 2 0 0
+@V2 6 ADD ADD 0 12 0
+	
+78
+182 2 0 0
+@V2 6 NE NE 0 11 0
+	
+78
+183 2 0 0
+@V2 6 LT LT 0 10 0
+	
+78
+184 2 0 0
+@V2 6 LE LE 0 9 0
+	
+78
+185 2 0 0
+@V2 6 EQ EQ 0 8 0
+	
+78
+186 2 0 0
+@V2 6 GT GT 0 7 0
+	
+78
+187 2 0 0
+@V2 6 GE GE 0 6 0
+	
+78
+188 2 0 0
+@V2 6 NOT NOT 0 5 0
+	
+78
+189 2 0 0
+@V2 6 XOR XOR 0 4 0
+	
+78
+190 2 0 0
+@V2 6 OR OR 0 3 0
+	
+78
+191 2 0 0
+@V2 6 EXPT EXPT 0 2 0
+	
+78
+192 2 0 0
+@V2 6 AND AND 0 1 0
+	
+84
+1 1 156 0
+@V2 3 @ STD_TSK 0 0 0
+F 
+80
+2 2 155 0
+@V2 4 Main Main 1 35 0
+	
+70
+3 3 0 0
+@V2 5 TON TON_1 2 37 41
+	
+70
+4 3 0 0
+@V2 5 TOF TOF_1 3 36 42
+	
+70
+5 3 1 0
+@V2 5 Motor Motor_36 4 38 227
+	
+70
+122 4 0 0
+@V2 5 TOF TOF_1 121 36 6
+	
+70
+6 3 1 0
+@V2 5 Partir_parar Partir_parar_1 5 39 260
+	
+70
+123 4 0 0
+@V2 5 SR SR_1 122 43 1
+	
+70
+7 3 0 0
+@V2 5 Parada_emergencia Parada_emergencia_1 6 42 261
+	
+70
+8 3 1 0
+@V2 5 Motor Motor_1 7 38 262
+	
+70
+124 4 0 0
+@V2 5 TOF TOF_1 123 36 6
+	
+70
+9 3 1 0
+@V2 5 Motor Motor_2 8 38 263
+	
+70
+125 4 0 0
+@V2 5 TOF TOF_1 124 36 6
+	
+70
+10 3 1 0
+@V2 5 Motor Motor_3 9 38 264
+	
+70
+126 4 0 0
+@V2 5 TOF TOF_1 125 36 6
+	
+70
+11 3 1 0
+@V2 5 Motor Motor_4 10 38 265
+	
+70
+127 4 0 0
+@V2 5 TOF TOF_1 126 36 6
+	
+70
+12 3 1 0
+@V2 5 Motor Motor_5 11 38 266
+	
+70
+128 4 0 0
+@V2 5 TOF TOF_1 127 36 6
+	
+70
+13 3 1 0
+@V2 5 Motor Motor_6 12 38 267
+	
+70
+129 4 0 0
+@V2 5 TOF TOF_1 128 36 6
+	
+70
+14 3 1 0
+@V2 5 Motor Motor_7 13 38 268
+	
+70
+130 4 0 0
+@V2 5 TOF TOF_1 129 36 6
+	
+70
+15 3 1 0
+@V2 5 Motor Motor_8 14 38 269
+	
+70
+131 4 0 0
+@V2 5 TOF TOF_1 130 36 6
+	
+70
+16 3 1 0
+@V2 5 Motor Motor_9 15 38 270
+	
+70
+132 4 0 0
+@V2 5 TOF TOF_1 131 36 6
+	
+70
+17 3 1 0
+@V2 5 Motor Motor_10 16 38 271
+	
+70
+133 4 0 0
+@V2 5 TOF TOF_1 132 36 6
+	
+70
+18 3 1 0
+@V2 5 Motor Motor_11 17 38 272
+	
+70
+134 4 0 0
+@V2 5 TOF TOF_1 133 36 6
+	
+70
+19 3 1 0
+@V2 5 Motor Motor_12 18 38 273
+	
+70
+135 4 0 0
+@V2 5 TOF TOF_1 134 36 6
+	
+70
+20 3 1 0
+@V2 5 Motor Motor_13 19 38 274
+	
+70
+136 4 0 0
+@V2 5 TOF TOF_1 135 36 6
+	
+70
+21 3 1 0
+@V2 5 Motor Motor_14 20 38 275
+	
+70
+137 4 0 0
+@V2 5 TOF TOF_1 136 36 6
+	
+70
+22 3 1 0
+@V2 5 Motor Motor_15 21 38 276
+	
+70
+138 4 0 0
+@V2 5 TOF TOF_1 137 36 6
+	
+70
+23 3 1 0
+@V2 5 Motor Motor_16 22 38 277
+	
+70
+139 4 0 0
+@V2 5 TOF TOF_1 138 36 6
+	
+70
+24 3 1 0
+@V2 5 Motor Motor_17 23 38 278
+	
+70
+140 4 0 0
+@V2 5 TOF TOF_1 139 36 6
+	
+70
+25 3 1 0
+@V2 5 Motor Motor_18 24 38 279
+	
+70
+141 4 0 0
+@V2 5 TOF TOF_1 140 36 6
+	
+70
+26 3 1 0
+@V2 5 Motor Motor_19 25 38 280
+	
+70
+142 4 0 0
+@V2 5 TOF TOF_1 141 36 6
+	
+70
+27 3 1 0
+@V2 5 Motor Motor_20 26 38 281
+	
+70
+143 4 0 0
+@V2 5 TOF TOF_1 142 36 6
+	
+70
+28 3 1 0
+@V2 5 Motor Motor_21 27 38 282
+	
+70
+144 4 0 0
+@V2 5 TOF TOF_1 143 36 6
+	
+70
+29 3 1 0
+@V2 5 Motor Motor_22 28 38 283
+	
+70
+145 4 0 0
+@V2 5 TOF TOF_1 144 36 6
+	
+70
+30 3 1 0
+@V2 5 Motor Motor_23 29 38 284
+	
+70
+146 4 0 0
+@V2 5 TOF TOF_1 145 36 6
+	
+70
+31 3 1 0
+@V2 5 Motor Motor_24 30 38 285
+	
+70
+147 4 0 0
+@V2 5 TOF TOF_1 146 36 6
+	
+70
+32 3 1 0
+@V2 5 Motor Motor_25 31 38 286
+	
+70
+148 4 0 0
+@V2 5 TOF TOF_1 147 36 6
+	
+70
+33 3 1 0
+@V2 5 Motor Motor_26 32 38 287
+	
+70
+149 4 0 0
+@V2 5 TOF TOF_1 148 36 6
+	
+70
+34 3 1 0
+@V2 5 Motor Motor_27 33 38 288
+	
+70
+150 4 0 0
+@V2 5 TOF TOF_1 149 36 6
+	
+70
+35 3 1 0
+@V2 5 Motor Motor_28 34 38 289
+	
+70
+151 4 0 0
+@V2 5 TOF TOF_1 150 36 6
+	
+70
+36 3 1 0
+@V2 5 Motor Motor_29 35 38 290
+	
+70
+152 4 0 0
+@V2 5 TOF TOF_1 151 36 6
+	
+70
+37 3 1 0
+@V2 5 Motor Motor_30 36 38 291
+	
+70
+153 4 0 0
+@V2 5 TOF TOF_1 152 36 6
+	
+70
+38 3 1 0
+@V2 5 Motor Motor_31 37 38 292
+	
+70
+154 4 0 0
+@V2 5 TOF TOF_1 153 36 6
+	
+70
+39 3 1 0
+@V2 5 Motor Motor_32 38 38 293
+	
+70
+155 4 0 0
+@V2 5 TOF TOF_1 154 36 6
+	
+70
+40 3 1 0
+@V2 5 Motor Motor_33 39 38 294
+	
+70
+156 4 0 0
+@V2 5 TOF TOF_1 155 36 6
+	
+70
+41 3 1 0
+@V2 5 Motor Motor_34 40 38 295
+	
+70
+157 4 0 0
+@V2 5 TOF TOF_1 156 36 6
+	
+70
+42 3 0 0
+@V2 5 cortar_motor cortar_motor_1 41 40 297
+	
+70
+43 3 0 0
+@V2 5 cortar_motor cortar_motor_2 42 40 298
+	
+70
+44 3 0 0
+@V2 5 cortar_motor cortar_motor_3 43 40 299
+	
+70
+45 3 0 0
+@V2 5 cortar_motor cortar_motor_4 44 40 300
+	
+70
+46 3 0 0
+@V2 5 cortar_motor cortar_motor_5 45 40 301
+	
+70
+47 3 0 0
+@V2 5 cortar_motor cortar_motor_6 46 40 302
+	
+70
+48 3 0 0
+@V2 5 cortar_motor cortar_motor_7 47 40 303
+	
+70
+49 3 0 0
+@V2 5 cortar_motor cortar_motor_8 48 40 304
+	
+70
+50 3 0 0
+@V2 5 cortar_motor cortar_motor_9 49 40 305
+	
+70
+51 3 0 0
+@V2 5 cortar_motor cortar_motor_10 50 40 306
+	
+70
+52 3 0 0
+@V2 5 cortar_motor cortar_motor_11 51 40 307
+	
+70
+53 3 0 0
+@V2 5 cortar_motor cortar_motor_12 52 40 308
+	
+70
+54 3 0 0
+@V2 5 cortar_motor cortar_motor_13 53 40 309
+	
+70
+55 3 0 0
+@V2 5 cortar_motor cortar_motor_14 54 40 310
+	
+70
+56 3 0 0
+@V2 5 cortar_motor cortar_motor_15 55 40 311
+	
+70
+57 3 0 0
+@V2 5 cortar_motor cortar_motor_16 56 40 312
+	
+70
+58 3 0 0
+@V2 5 cortar_motor cortar_motor_17 57 40 313
+	
+70
+59 3 0 0
+@V2 5 cortar_motor cortar_motor_18 58 40 314
+	
+70
+60 3 0 0
+@V2 5 cortar_motor cortar_motor_19 59 40 315
+	
+70
+61 3 0 0
+@V2 5 cortar_motor cortar_motor_20 60 40 316
+	
+70
+62 3 0 0
+@V2 5 cortar_motor cortar_motor_21 61 40 317
+	
+70
+63 3 0 0
+@V2 5 cortar_motor cortar_motor_22 62 40 318
+	
+70
+64 3 0 0
+@V2 5 cortar_motor cortar_motor_23 63 40 319
+	
+70
+65 3 0 0
+@V2 5 cortar_motor cortar_motor_24 64 40 320
+	
+70
+66 3 0 0
+@V2 5 cortar_motor cortar_motor_25 65 40 321
+	
+70
+67 3 0 0
+@V2 5 cortar_motor cortar_motor_26 66 40 322
+	
+70
+68 3 0 0
+@V2 5 cortar_motor cortar_motor_27 67 40 323
+	
+70
+69 3 0 0
+@V2 5 cortar_motor cortar_motor_28 68 40 324
+	
+70
+70 3 0 0
+@V2 5 cortar_motor cortar_motor_29 69 40 325
+	
+70
+71 3 0 0
+@V2 5 cortar_motor cortar_motor_30 70 40 326
+	
+70
+72 3 0 0
+@V2 5 cortar_motor cortar_motor_31 71 40 327
+	
+70
+73 3 0 0
+@V2 5 cortar_motor cortar_motor_32 72 40 328
+	
+70
+74 3 0 0
+@V2 5 cortar_motor cortar_motor_33 73 40 329
+	
+70
+75 3 0 0
+@V2 5 cortar_motor cortar_motor_34 74 40 330
+	
+70
+76 3 0 0
+@V2 5 cortar_motor cortar_motor_35 75 40 331
+	
+70
+77 3 0 0
+@V2 5 cortar_motor cortar_motor_36 76 40 332
+	
+70
+78 3 0 0
+@V2 5 cortar_motor cortar_motor_37 77 40 333
+	
+70
+79 3 0 0
+@V2 5 cortar_motor cortar_motor_38 78 40 334
+	
+70
+80 3 0 0
+@V2 5 cortar_motor cortar_motor_39 79 40 335
+	
+70
+81 3 0 0
+@V2 5 cortar_motor cortar_motor_40 80 40 336
+	
+70
+82 3 0 0
+@V2 5 Partida_motor Partida_motor_1 81 41 337
+	
+70
+83 3 0 0
+@V2 5 Partida_motor Partida_motor_2 82 41 338
+	
+70
+84 3 0 0
+@V2 5 Partida_motor Partida_motor_3 83 41 339
+	
+70
+85 3 0 0
+@V2 5 Partida_motor Partida_motor_4 84 41 340
+	
+70
+86 3 0 0
+@V2 5 Partida_motor Partida_motor_5 85 41 341
+	
+70
+87 3 0 0
+@V2 5 Partida_motor Partida_motor_6 86 41 342
+	
+70
+88 3 0 0
+@V2 5 Partida_motor Partida_motor_7 87 41 343
+	
+70
+89 3 0 0
+@V2 5 Partida_motor Partida_motor_8 88 41 344
+	
+70
+90 3 0 0
+@V2 5 Partida_motor Partida_motor_9 89 41 345
+	
+70
+91 3 0 0
+@V2 5 Partida_motor Partida_motor_10 90 41 346
+	
+70
+92 3 0 0
+@V2 5 Partida_motor Partida_motor_11 91 41 347
+	
+70
+93 3 0 0
+@V2 5 Partida_motor Partida_motor_12 92 41 348
+	
+70
+94 3 0 0
+@V2 5 Partida_motor Partida_motor_13 93 41 349
+	
+70
+95 3 0 0
+@V2 5 Partida_motor Partida_motor_14 94 41 350
+	
+70
+96 3 0 0
+@V2 5 Partida_motor Partida_motor_15 95 41 351
+	
+70
+97 3 0 0
+@V2 5 Partida_motor Partida_motor_16 96 41 352
+	
+70
+98 3 0 0
+@V2 5 Partida_motor Partida_motor_17 97 41 353
+	
+70
+99 3 0 0
+@V2 5 Partida_motor Partida_motor_18 98 41 354
+	
+70
+100 3 0 0
+@V2 5 Partida_motor Partida_motor_19 99 41 355
+	
+70
+101 3 0 0
+@V2 5 Partida_motor Partida_motor_20 100 41 356
+	
+70
+102 3 0 0
+@V2 5 Partida_motor Partida_motor_21 101 41 357
+	
+70
+103 3 0 0
+@V2 5 Partida_motor Partida_motor_22 102 41 358
+	
+70
+104 3 0 0
+@V2 5 Partida_motor Partida_motor_23 103 41 359
+	
+70
+105 3 0 0
+@V2 5 Partida_motor Partida_motor_24 104 41 360
+	
+70
+106 3 0 0
+@V2 5 Partida_motor Partida_motor_25 105 41 361
+	
+70
+107 3 0 0
+@V2 5 Partida_motor Partida_motor_26 106 41 362
+	
+70
+108 3 0 0
+@V2 5 Partida_motor Partida_motor_27 107 41 363
+	
+70
+109 3 0 0
+@V2 5 Partida_motor Partida_motor_28 108 41 364
+	
+70
+110 3 0 0
+@V2 5 Partida_motor Partida_motor_29 109 41 365
+	
+70
+111 3 0 0
+@V2 5 Partida_motor Partida_motor_30 110 41 366
+	
+70
+112 3 0 0
+@V2 5 Partida_motor Partida_motor_32 111 41 367
+	
+70
+113 3 0 0
+@V2 5 Partida_motor Partida_motor_31 112 41 368
+	
+70
+114 3 0 0
+@V2 5 Partida_motor Partida_motor_33 113 41 369
+	
+70
+115 3 0 0
+@V2 5 Partida_motor Partida_motor_34 114 41 370
+	
+70
+116 3 0 0
+@V2 5 Partida_motor Partida_motor_35 115 41 371
+	
+70
+117 3 0 0
+@V2 5 Partida_motor Partida_motor_36 116 41 372
+	
+70
+118 3 0 0
+@V2 5 Partida_motor Partida_motor_37 117 41 373
+	
+70
+119 3 0 0
+@V2 5 Partida_motor Partida_motor_38 118 41 374
+	
+70
+120 3 0 0
+@V2 5 Partida_motor Partida_motor_39 119 41 375
+	
+70
+121 3 0 0
+@V2 5 Partida_motor Partida_motor_40 120 41 376
+	

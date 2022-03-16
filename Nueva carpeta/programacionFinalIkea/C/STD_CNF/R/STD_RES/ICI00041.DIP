@@ -1,0 +1,13 @@
+(*
+T: FUNCTION_BLOCK Partida_motor
+FW: NO
+CI#: 41
+QSL: 3
+QVE: 3
+QVPC: 3
+QPar: 3
+QFBI: 0
+*)
+Habilitar1	@IV 1	@TYP:1	VAR_INPUT
+Partir_motor1	@IV 3	@TYP:1	VAR_OUTPUT
+Sensor1	@IV 2	@TYP:1	VAR_INPUT

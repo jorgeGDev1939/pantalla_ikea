@@ -1,0 +1,28 @@
+(*
+T: FUNCTION_BLOCK motores
+FW: NO
+CI#: 36
+QSL: 3
+QVE: 3
+QVPC: 3
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+partir	1	VAR	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+motor	2	VAR	@TYP:1
+		     
+
+;
+
+@V 1 8 0
+sensor	3	VAR	@TYP:1
+		     
+
+;
+

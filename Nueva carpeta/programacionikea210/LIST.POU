@@ -1,0 +1,2 @@
+FUNCTION_BLOCK	motores			PT=1	motores	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	

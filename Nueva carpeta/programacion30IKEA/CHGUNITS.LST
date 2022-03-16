@@ -1,0 +1,12 @@
+(*
+NPOU: 9
+*)
+FB	motor
+FB	parada_secuencial
+FB	modo_manual
+FB	subir_bajar
+FB	PE
+FB	falla_motor
+FB	partir_parar
+FB	ingreso_pallet
+PG	Main

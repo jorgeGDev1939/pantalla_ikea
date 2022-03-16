@@ -1,0 +1,622 @@
+(*
+T: FUNCTION_BLOCK modo_manual
+FW: NO
+CI#: 37
+QSL: 102
+QVE: 102
+QVPC: 102
+QPar: 21
+QFBI: 20
+*)
+@V 1 6 0
+tag_estatus_m1	1	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 7 0
+tag_estatus_m2	2	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 8 0
+tag_estatus_m3	3	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 9 0
+tag_estatus_m4	4	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 10 0
+tag_estatus_m5	5	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 11 0
+tag_estatus_m6	6	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 12 0
+tag_estatus_m7	7	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 13 0
+tag_estatus_m8	8	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 14 0
+tag_estatus_m9	9	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 15 0
+tag_estatus_m10	10	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 16 0
+tag_estatus_m11	11	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 17 0
+tag_estatus_m12	12	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 18 0
+tag_estatus_m13	13	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 19 0
+tag_estatus_m14	14	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 20 0
+tag_estatus_m15	15	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 21 0
+tag_estatus_m16	16	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 22 0
+tag_estatus_m17	17	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 23 0
+tag_estatus_m18	18	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 24 0
+tag_estatus_m19	19	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 25 0
+tag_estatus_m20	20	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 26 0
+tag_estatus_m51	21	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 34 0
+m1	22	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 35 0
+m2	23	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 36 0
+m3	24	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 37 0
+m4	25	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 38 0
+m5	26	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 39 0
+m6	27	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 40 0
+m7	28	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 41 0
+m8	29	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 42 0
+m9	30	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 43 0
+m10	31	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 44 0
+m11	32	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 45 0
+m12	33	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 46 0
+m13	34	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 47 0
+m14	35	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 48 0
+m15	36	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 49 0
+m16	37	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 50 0
+m19	38	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 51 0
+m20	39	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 52 0
+m17	40	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 53 0
+m18	41	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 61 0
+tag_partir_m1	42	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 62 0
+tag_partir_m10	43	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 63 0
+tag_partir_m11	44	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 64 0
+tag_partir_m12	45	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 65 0
+tag_partir_m13	46	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 66 0
+tag_partir_m14	47	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 67 0
+tag_partir_m15	48	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 68 0
+tag_partir_m16	49	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 69 0
+tag_partir_m17	50	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 70 0
+tag_partir_m18	51	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 71 0
+tag_partir_m19	52	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 72 0
+tag_partir_m2	53	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 73 0
+tag_partir_m20	54	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 74 0
+tag_partir_m3	55	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 75 0
+tag_partir_m4	56	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 76 0
+tag_partir_m5	57	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 77 0
+tag_partir_m6	58	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 78 0
+tag_partir_m7	59	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 79 0
+tag_partir_m8	60	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 80 0
+tag_partir_m9	61	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 88 0
+tag_parar_m1	62	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 89 0
+tag_parar_m10	63	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 90 0
+tag_parar_m11	64	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 91 0
+tag_parar_m12	65	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 92 0
+tag_parar_m13	66	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 93 0
+tag_parar_m14	67	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 94 0
+tag_parar_m15	68	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 95 0
+tag_parar_m16	69	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 96 0
+tag_parar_m17	70	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 97 0
+tag_parar_m18	71	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 98 0
+tag_parar_m19	72	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 99 0
+tag_parar_m2	73	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 100 0
+tag_parar_m20	74	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 101 0
+tag_parar_m3	75	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 102 0
+tag_parar_m4	76	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 103 0
+tag_parar_m5	77	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 104 0
+tag_parar_m6	78	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 105 0
+tag_parar_m7	79	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 106 0
+tag_parar_m8	80	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 107 0
+tag_parar_m9	81	VAR	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 1 115 0
+SR_12	82	VAR	@FB:42
+		     
+
+;
+
+@V 1 116 0
+SR_3	83	VAR	@FB:42
+		     
+
+;
+
+@V 1 117 0
+SR_4	84	VAR	@FB:42
+		     
+
+;
+
+@V 1 118 0
+SR_5	85	VAR	@FB:42
+		     
+
+;
+
+@V 1 119 0
+SR_6	86	VAR	@FB:42
+		     
+
+;
+
+@V 1 120 0
+SR_7	87	VAR	@FB:42
+		     
+
+;
+
+@V 1 121 0
+SR_8	88	VAR	@FB:42
+		     
+
+;
+
+@V 1 122 0
+SR_9	89	VAR	@FB:42
+		     
+
+;
+
+@V 1 123 0
+SR_10	90	VAR	@FB:42
+		     
+
+;
+
+@V 1 124 0
+SR_19	91	VAR	@FB:42
+		     
+
+;
+
+@V 1 125 0
+SR_18	92	VAR	@FB:42
+		     
+
+;
+
+@V 1 126 0
+SR_17	93	VAR	@FB:42
+		     
+
+;
+
+@V 1 127 0
+SR_16	94	VAR	@FB:42
+		     
+
+;
+
+@V 1 128 0
+SR_15	95	VAR	@FB:42
+		     
+
+;
+
+@V 1 129 0
+SR_14	96	VAR	@FB:42
+		     
+
+;
+
+@V 1 130 0
+SR_13	97	VAR	@FB:42
+		     
+
+;
+
+@V 1 131 0
+SR_11	98	VAR	@FB:42
+		     
+
+;
+
+@V 1 132 0
+SR_1	99	VAR	@FB:42
+		     
+
+;
+
+@V 1 133 0
+SR_20	100	VAR	@FB:42
+		     
+
+;
+
+@V 1 134 0
+SR_2	101	VAR	@FB:42
+		     
+
+;
+
+@V 1 139 0
+habilitar	102	VAR_INPUT	@TYP:1
+		     
+
+;
+

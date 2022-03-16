@@ -1,0 +1,39 @@
+(*
+T: FUNCTION_BLOCK parada_secuencial
+FW: NO
+CI#: 41
+QSL: 38
+QVE: 38
+QVPC: 38
+QPar: 29
+QFBI: 9
+*)
+alerta_linea_llena	@IV 3	@TYP:1	VAR_OUTPUT
+cortar_motor1	@IV 12	@TYP:1	VAR_OUTPUT
+cortar_motor2	@IV 13	@TYP:1	VAR_OUTPUT
+cortar_motor3	@IV 14	@TYP:1	VAR_OUTPUT
+cortar_motor4	@IV 15	@TYP:1	VAR_OUTPUT
+cortar_motor5	@IV 16	@TYP:1	VAR_OUTPUT
+cortar_motor6	@IV 17	@TYP:1	VAR_OUTPUT
+cortar_motor7	@IV 18	@TYP:1	VAR_OUTPUT
+cortar_motor8	@IV 19	@TYP:1	VAR_OUTPUT
+cortar_motor9	@IV 20	@TYP:1	VAR_OUTPUT
+interlock	@IV 1	@TYP:1	VAR_INPUT
+sensor1	@IV 2	@TYP:1	VAR_INPUT
+sensor2	@IV 4	@TYP:1	VAR_INPUT
+sensor3	@IV 5	@TYP:1	VAR_INPUT
+sensor4	@IV 6	@TYP:1	VAR_INPUT
+sensor5	@IV 7	@TYP:1	VAR_INPUT
+sensor6	@IV 8	@TYP:1	VAR_INPUT
+sensor7	@IV 9	@TYP:1	VAR_INPUT
+sensor8	@IV 10	@TYP:1	VAR_INPUT
+sensor9	@IV 11	@TYP:1	VAR_INPUT
+tiempo1	@IV 21	@TYP:12	VAR_INPUT
+tiempo2	@IV 22	@TYP:12	VAR_INPUT
+tiempo3	@IV 23	@TYP:12	VAR_INPUT
+tiempo4	@IV 24	@TYP:12	VAR_INPUT
+tiempo5	@IV 25	@TYP:12	VAR_INPUT
+tiempo6	@IV 26	@TYP:12	VAR_INPUT
+tiempo7	@IV 27	@TYP:12	VAR_INPUT
+tiempo8	@IV 28	@TYP:12	VAR_INPUT
+tiempo9	@IV 29	@TYP:12	VAR_INPUT

@@ -1,0 +1,238 @@
+(*
+T: FUNCTION_BLOCK parada_secuencial
+FW: NO
+CI#: 41
+QSL: 38
+QVE: 38
+QVPC: 38
+QPar: 29
+QFBI: 9
+*)
+@V 1 6 0
+interlock	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+sensor1	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 12 0
+alerta_linea_llena	3	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 17 0
+sensor2	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+sensor3	5	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+sensor4	6	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 20 0
+sensor5	7	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+sensor6	8	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 22 0
+sensor7	9	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+sensor8	10	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 24 0
+sensor9	11	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+cortar_motor1	12	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+cortar_motor2	13	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 31 0
+cortar_motor3	14	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 32 0
+cortar_motor4	15	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 33 0
+cortar_motor5	16	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 34 0
+cortar_motor6	17	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 35 0
+cortar_motor7	18	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 36 0
+cortar_motor8	19	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 37 0
+cortar_motor9	20	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 42 0
+tiempo1	21	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 43 0
+tiempo2	22	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 44 0
+tiempo3	23	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 45 0
+tiempo4	24	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 46 0
+tiempo5	25	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 47 0
+tiempo6	26	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 48 0
+tiempo7	27	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 49 0
+tiempo8	28	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 50 0
+tiempo9	29	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 55 0
+TOF_1	30	VAR	@FB:43
+		     
+
+;
+
+@V 1 56 0
+TOF_2	31	VAR	@FB:43
+		     
+
+;
+
+@V 1 57 0
+TOF_3	32	VAR	@FB:43
+		     
+
+;
+
+@V 1 58 0
+TOF_4	33	VAR	@FB:43
+		     
+
+;
+
+@V 1 59 0
+TOF_5	34	VAR	@FB:43
+		     
+
+;
+
+@V 1 60 0
+TOF_6	35	VAR	@FB:43
+		     
+
+;
+
+@V 1 61 0
+TOF_7	36	VAR	@FB:43
+		     
+
+;
+
+@V 1 62 0
+TOF_8	37	VAR	@FB:43
+		     
+
+;
+
+@V 1 63 0
+TOF_9	38	VAR	@FB:43
+		     
+
+;
+

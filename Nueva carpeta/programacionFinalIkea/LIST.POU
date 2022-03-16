@@ -1,0 +1,7 @@
+FUNCTION_BLOCK	Mantenimiento			PT=1	Mantenimiento	HIDDEN=0	
+FUNCTION_BLOCK	Parada_emergencia			PT=1	Parada_emergencia	HIDDEN=0	
+FUNCTION_BLOCK	Partir_parar			PT=1	Partir_parar	HIDDEN=0	
+FUNCTION_BLOCK	Motor			PT=1	Motor	HIDDEN=0	
+FUNCTION_BLOCK	Partida_motor			PT=1	Partida_motor	HIDDEN=0	
+FUNCTION_BLOCK	cortar_motor			PT=1	cortar_motor	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	

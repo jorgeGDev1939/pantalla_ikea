@@ -1,0 +1,9 @@
+FUNCTION_BLOCK	motor			PT=1	motor	HIDDEN=0	
+FUNCTION_BLOCK	parada_secuencial			PT=1	parada_secuencial	HIDDEN=0	
+FUNCTION_BLOCK	modo_manual			PT=1	modo_manual	HIDDEN=0	
+FUNCTION_BLOCK	subir_bajar			PT=1	subir_bajar	HIDDEN=0	
+FUNCTION_BLOCK	PE			PT=1	PE	HIDDEN=0	
+FUNCTION_BLOCK	falla_motor			PT=1	falla_motor	HIDDEN=0	
+FUNCTION_BLOCK	partir_parar			PT=1	partir_parar	HIDDEN=0	
+FUNCTION_BLOCK	ingreso_pallet			PT=1	ingreso_pallet	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	

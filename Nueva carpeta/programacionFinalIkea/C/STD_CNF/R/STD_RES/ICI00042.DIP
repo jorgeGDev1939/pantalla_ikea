@@ -1,0 +1,14 @@
+(*
+T: FUNCTION_BLOCK Parada_emergencia
+FW: NO
+CI#: 42
+QSL: 5
+QVE: 5
+QVPC: 5
+QPar: 4
+QFBI: 0
+*)
+cortar_PE	@IV 4	@TYP:1	VAR_OUTPUT
+Indicador_PE_hmi	@IV 2	@TYP:1	VAR_OUTPUT
+PE_1	@IV 1	@TYP:1	VAR_INPUT
+PE_2	@IV 3	@TYP:1	VAR_INPUT

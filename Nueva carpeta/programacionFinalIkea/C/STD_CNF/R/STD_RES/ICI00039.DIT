@@ -1,0 +1,46 @@
+(*
+T: FUNCTION_BLOCK Partir_parar
+FW: NO
+CI#: 39
+QSL: 6
+QVE: 6
+QVPC: 6
+QPar: 5
+QFBI: 1
+*)
+@V 1 6 0
+SR_1	1	VAR	@FB:43
+		     
+
+;
+
+@V 1 11 0
+habilitar	2	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+partir1	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 17 0
+partir2	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+parar1	5	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+parar2	6	VAR_INPUT	@TYP:1
+		     
+
+;
+

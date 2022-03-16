@@ -1,0 +1,14 @@
+PRIORIDAD
+
+layout simple
+estado ascensor(subiendo-bajando pallet)
+contar cantidad pallets procesados
+PE
+btn-start stop
+
+secundario
+
+Pantalla mantenimiento.
+
+
+

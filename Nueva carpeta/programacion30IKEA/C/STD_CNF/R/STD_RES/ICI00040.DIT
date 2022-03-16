@@ -1,0 +1,52 @@
+(*
+T: FUNCTION_BLOCK ingreso_pallet
+FW: NO
+CI#: 40
+QSL: 7
+QVE: 7
+QVPC: 7
+QPar: 7
+QFBI: 0
+*)
+@V 1 6 0
+sensor_ingreso_pallet1	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+sensor_ingreso_pallet2	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 8 0
+sensor_ingreso_pallet3	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 9 0
+sensor_ingreso_pallet4	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 10 0
+habilitar	5	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+sensor_proximidad	6	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+motor	7	VAR_OUTPUT	@TYP:1
+		     
+
+;
+

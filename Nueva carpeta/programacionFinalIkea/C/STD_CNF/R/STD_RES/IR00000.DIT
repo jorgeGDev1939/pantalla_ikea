@@ -1,0 +1,1894 @@
+(*
+T: RESOURCE STD_RES
+FW: NO
+CI#: 0
+QSL: 314
+QVE: 314
+QVPC: 314
+QPar: 0
+QFBI: 0
+*)
+@V 2 6 0
+Interlock_estado	1	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 7 0
+Interlock_bajar	2	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 8 0
+Interlock_subir	3	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 16 0
+Motor_r1	4	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 17 0
+Motor_r2	5	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 18 0
+Motor_r3	6	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 19 0
+Motor_r4	7	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 20 0
+Motor_r5	8	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 21 0
+Motor_r6	9	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 22 0
+Motor_r7	10	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 23 0
+Motor_r8	11	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 24 0
+Motor_r9	12	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 25 0
+Motor_r10	13	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 26 0
+Motor_r11	14	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 27 0
+Motor_r12	15	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 28 0
+Motor_r13	16	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 29 0
+Motor_r14	17	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 30 0
+Motor_r15	18	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 31 0
+Motor_r16	19	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 32 0
+Motor_r17	20	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 33 0
+Motor_r18	21	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 34 0
+Motor_r19	22	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 35 0
+Motor_r20	23	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 43 0
+Motor_d1	24	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 44 0
+Motor_d2	25	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 45 0
+Motor_d3	26	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 46 0
+Motor_d4	27	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 47 0
+Motor_d5	28	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 48 0
+Motor_d6	29	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 49 0
+Motor_d7	30	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 50 0
+Motor_d8	31	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 51 0
+Motor_d9	32	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 52 0
+Motor_d10	33	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 53 0
+Motor_d11	34	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 54 0
+Motor_d12	35	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 55 0
+Motor_d13	36	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 56 0
+Motor_d14	37	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 57 0
+Motor_d15	38	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 58 0
+Motor_d16	39	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 59 0
+Motor_d17	40	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 60 0
+Motor_d18	41	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 61 0
+Motor_d19	42	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 62 0
+Motor_d20	43	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 70 0
+Bal_amarilla_remota	44	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 71 0
+Bal_azul_remota	45	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 72 0
+Bal_verde_remota	46	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 73 0
+Bal_roja_remota	47	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 74 0
+Bal_sonora_remota	48	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 82 0
+Bal_verde_tablero	49	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 83 0
+Bal_azul_tablero	50	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 84 0
+Bal_sonora_tablero	51	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 85 0
+Bal_amarilla_tablero	52	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 86 0
+Bal_roja_tablero	53	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 94 0
+btn_PE_remoto	54	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 95 0
+btn_bajar_remoto	55	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 96 0
+btn_partir_remoto	56	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 97 0
+btn_subir_remoto	57	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 105 0
+btn_bajar1	58	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 106 0
+btn_bajar2	59	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 107 0
+btn_bajar3	60	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 108 0
+btn_bajar4	61	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 109 0
+btn_bajar5	62	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 110 0
+btn_bajar6	63	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 111 0
+btn_bajar7	64	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 112 0
+btn_bajar8	65	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 113 0
+btn_bajar9	66	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 114 0
+btn_bajar10	67	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 115 0
+btn_bajar11	68	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 116 0
+btn_bajar12	69	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 117 0
+btn_bajar13	70	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 118 0
+btn_bajar14	71	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 119 0
+btn_bajar15	72	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 120 0
+btn_bajar16	73	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 121 0
+btn_bajar17	74	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 122 0
+btn_bajar18	75	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 123 0
+btn_bajar19	76	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 124 0
+btn_bajar20	77	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 125 0
+btn_subir1	78	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 126 0
+btn_subir2	79	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 127 0
+btn_subir3	80	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 128 0
+btn_subir4	81	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 129 0
+btn_subir5	82	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 130 0
+btn_subir6	83	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 131 0
+btn_subir7	84	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 132 0
+btn_subir8	85	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 133 0
+btn_subir9	86	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 134 0
+btn_subir10	87	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 135 0
+btn_subir11	88	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 136 0
+btn_subir12	89	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 137 0
+btn_subir13	90	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 138 0
+btn_subir14	91	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 139 0
+btn_subir15	92	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 140 0
+btn_subir16	93	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 141 0
+btn_subir17	94	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 142 0
+btn_subir18	95	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 143 0
+btn_subir19	96	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 144 0
+btn_subir20	97	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 145 0
+btn_parar1	98	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 146 0
+btn_parar2	99	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 147 0
+btn_parar3	100	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 148 0
+btn_parar4	101	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 149 0
+btn_parar5	102	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 150 0
+btn_parar6	103	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 151 0
+btn_parar7	104	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 152 0
+btn_parar8	105	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 153 0
+btn_parar9	106	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 154 0
+btn_parar10	107	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 155 0
+btn_parar11	108	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 156 0
+btn_parar12	109	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 157 0
+btn_parar13	110	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 158 0
+btn_parar14	111	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 159 0
+btn_parar15	112	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 160 0
+btn_parar16	113	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 161 0
+btn_parar17	114	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 162 0
+btn_parar18	115	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 163 0
+btn_parar19	116	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 164 0
+btn_parar20	117	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 165 0
+btn_partir_hmi	118	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 173 0
+fm1	119	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 174 0
+fm2	120	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 175 0
+fm3	121	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 176 0
+fm4	122	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 177 0
+fm5	123	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 178 0
+fm6	124	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 179 0
+fm7	125	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 180 0
+fm8	126	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 181 0
+fm9	127	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 182 0
+fm10	128	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 183 0
+fm11	129	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 184 0
+fm12	130	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 185 0
+fm13	131	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 186 0
+fm14	132	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 187 0
+fm15	133	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 188 0
+fm16	134	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 189 0
+fm17	135	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 190 0
+fm18	136	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 191 0
+fm19	137	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 192 0
+fm20	138	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 200 0
+Indicador_funcionamiento	139	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 201 0
+Indicador_detencion	140	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 202 0
+Indicador_bajando	141	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 203 0
+Indicador_subiendo	142	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 204 0
+Indicador_PE	143	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 205 0
+Indicador_fm1	144	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 206 0
+Indicador_fm2	145	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 207 0
+Indicador_fm3	146	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 208 0
+Indicador_fm4	147	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 209 0
+Indicador_fm5	148	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 210 0
+Indicador_fm6	149	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 211 0
+Indicador_fm7	150	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 212 0
+Indicador_fm8	151	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 213 0
+Indicador_fm9	152	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 214 0
+Indicador_fm10	153	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 215 0
+Indicador_fm11	154	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 216 0
+Indicador_fm12	155	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 217 0
+Indicador_fm13	156	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 218 0
+Indicador_fm14	157	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 219 0
+Indicador_fm15	158	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 220 0
+Indicador_fm16	159	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 221 0
+Indicador_fm17	160	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 222 0
+Indicador_fm18	161	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 223 0
+Indicador_fm19	162	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 224 0
+Indicador_fm20	163	VAR_GLOBAL	@TYP:1
+		     
+
+;
+PFW: CSV
+@V 2 232 0
+Sensor_d1	164	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 233 0
+Sensor_d2	165	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 234 0
+Sensor_d3	166	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 235 0
+Sensor_d4	167	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 236 0
+Sensor_d5	168	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 237 0
+Sensor_d6	169	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 238 0
+Sensor_d7	170	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 239 0
+Sensor_d8	171	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 240 0
+Sensor_d9	172	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 241 0
+Sensor_d10	173	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 242 0
+Sensor_d11	174	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 243 0
+Sensor_d12	175	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 244 0
+Sensor_d13	176	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 245 0
+Sensor_d14	177	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 246 0
+Sensor_d15	178	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 247 0
+Sensor_d16	179	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 248 0
+Sensor_d17	180	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 249 0
+Sensor_d18	181	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 250 0
+Sensor_d19	182	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 251 0
+Sensor_d20	183	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 259 0
+Sensor_r1	184	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 260 0
+Sensor_r2	185	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 261 0
+Sensor_r3	186	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 262 0
+Sensor_r4	187	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 263 0
+Sensor_r5	188	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 264 0
+Sensor_r6	189	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 265 0
+Sensor_r7	190	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 266 0
+Sensor_r8	191	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 267 0
+Sensor_r9	192	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 268 0
+Sensor_r10	193	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 269 0
+Sensor_r11	194	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 270 0
+Sensor_r12	195	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 271 0
+Sensor_r13	196	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 272 0
+Sensor_r14	197	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 273 0
+Sensor_r15	198	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 274 0
+Sensor_r16	199	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 275 0
+Sensor_r17	200	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 276 0
+Sensor_r18	201	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 277 0
+Sensor_r19	202	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 278 0
+Sensor_r20	203	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 286 0
+Sensor_cl01	204	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 287 0
+Sensor_cl02	205	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 288 0
+Sensor_cl03	206	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 289 0
+Sensor_cl04	207	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 290 0
+Sensor_cf01	208	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 291 0
+Sensor_cf02	209	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 292 0
+Sensor_cf03	210	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 293 0
+Sensor_cf04	211	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 301 0
+btn_PE_tablero	212	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 302 0
+btn_parar_tablero	213	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 303 0
+btn_subir_tablero	214	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 304 0
+btn_bajar_tablero	215	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 2 313 0
+PLCMODE_ON	216	VAR_GLOBAL	@TYP:1
+%MX 1.2016.0		     
+
+;
+PFW: PDD
+@V 2 314 0
+PLCMODE_LOADING	217	VAR_GLOBAL	@TYP:1
+%MX 1.2017.0		     
+
+;
+
+@V 2 315 0
+PLCMODE_RUN	218	VAR_GLOBAL	@TYP:1
+%MX 1.7.0		     
+
+;
+
+@V 2 316 0
+PLCMODE_STOP	219	VAR_GLOBAL	@TYP:1
+%MX 1.6.0		     
+
+;
+
+@V 2 317 0
+PLCMODE_HALT	220	VAR_GLOBAL	@TYP:1
+%MX 1.8.0		     
+
+;
+
+@V 2 318 0
+PLCDEBUG_BPSET	221	VAR_GLOBAL	@TYP:1
+%MX 1.2019.0		     
+
+;
+
+@V 2 319 0
+PLCDEBUG_FORCE	222	VAR_GLOBAL	@TYP:1
+%MX 1.2018.0		     
+
+;
+
+@V 2 320 0
+PLCDEBUG_POWERFLOW	223	VAR_GLOBAL	@TYP:1
+%MX 1.2020.0		     
+
+;
+
+@V 2 321 0
+PLC_TICKS_PER_SEC	224	VAR_GLOBAL	@TYP:3
+%MW 1.2000		     
+
+;
+
+@V 2 322 0
+PLC_SYS_TICK_CNT	225	VAR_GLOBAL	@TYP:4
+%MD 1.0		     
+
+;
+
+@V 2 323 0
+PLC_TASK_AVAILABLE	226	VAR_GLOBAL	@TYP:3
+%MW 1.2012		     
+
+;
+
+@V 2 324 0
+PLC_SYSTASK_AVAILABLE	227	VAR_GLOBAL	@TYP:3
+%MW 1.2016		     
+
+;
+
+@V 2 325 0
+PLC_MAX_ERRORS	228	VAR_GLOBAL	@TYP:4
+%MD 1.2004		     
+
+;
+
+@V 2 326 0
+PLC_ERRORS	229	VAR_GLOBAL	@TYP:4
+%MD 1.2008		     
+
+;
+
+@V 2 327 0
+PLC_TASK_DEFINED	230	VAR_GLOBAL	@TYP:3
+%MW 1.4		     
+
+;
+
+@V 2 328 0
+PLC_TASK_1	231	VAR_GLOBAL	@TYP:1027
+%MB 1.5000		     
+
+;
+
+@V 2 329 0
+PLC_TASK_2	232	VAR_GLOBAL	@TYP:1027
+%MB 1.5128		     
+
+;
+
+@V 2 330 0
+PLC_TASK_3	233	VAR_GLOBAL	@TYP:1027
+%MB 1.5256		     
+
+;
+
+@V 2 331 0
+PLC_TASK_4	234	VAR_GLOBAL	@TYP:1027
+%MB 1.5384		     
+
+;
+
+@V 2 332 0
+PLC_TASK_5	235	VAR_GLOBAL	@TYP:1027
+%MB 1.5512		     
+
+;
+
+@V 2 333 0
+PLC_TASK_6	236	VAR_GLOBAL	@TYP:1027
+%MB 1.5640		     
+
+;
+
+@V 2 334 0
+PLC_TASK_7	237	VAR_GLOBAL	@TYP:1027
+%MB 1.5768		     
+
+;
+
+@V 2 335 0
+PLC_TASK_8	238	VAR_GLOBAL	@TYP:1027
+%MB 1.5896		     
+
+;
+
+@V 2 336 0
+LICENSE	239	VAR_GLOBAL	@TYP:19
+%MD 1.60112		     
+
+;
+
+@V 2 337 0
+AXIO_DIAG_STATUS_REG_HI	240	VAR_GLOBAL	@TYP:17
+%MB 1.60001		     
+
+;
+
+@V 2 338 0
+AXIO_DIAG_STATUS_REG_LOW	241	VAR_GLOBAL	@TYP:17
+%MB 1.60000		     
+
+;
+
+@V 2 339 0
+AXIO_DIAG_PARAM_REG_HI	242	VAR_GLOBAL	@TYP:17
+%MB 1.60003		     
+
+;
+
+@V 2 340 0
+AXIO_DIAG_PARAM_REG_LOW	243	VAR_GLOBAL	@TYP:17
+%MB 1.60002		     
+
+;
+
+@V 2 341 0
+AXIO_DIAG_PARAM_2_REG_HI	244	VAR_GLOBAL	@TYP:17
+%MB 1.60005		     
+
+;
+
+@V 2 342 0
+AXIO_DIAG_PARAM_2_REG_LOW	245	VAR_GLOBAL	@TYP:17
+%MB 1.60004		     
+
+;
+
+@V 2 343 0
+AXIO_DIAG_STATUS_REG_PF	246	VAR_GLOBAL	@TYP:1
+%MX 1.60149.0		     
+
+;
+
+@V 2 344 0
+AXIO_DIAG_STATUS_REG_PW	247	VAR_GLOBAL	@TYP:1
+%MX 1.60148.0		     
+
+;
+
+@V 2 345 0
+AXIO_DIAG_STATUS_REG_BUS	248	VAR_GLOBAL	@TYP:1
+%MX 1.60150.0		     
+
+;
+
+@V 2 346 0
+AXIO_DIAG_STATUS_REG_RUN	249	VAR_GLOBAL	@TYP:1
+%MX 1.60153.0		     
+
+;
+
+@V 2 347 0
+AXIO_DIAG_STATUS_REG_ACT	250	VAR_GLOBAL	@TYP:1
+%MX 1.60154.0		     
+
+;
+
+@V 2 348 0
+AXIO_DIAG_STATUS_REG_RDY	251	VAR_GLOBAL	@TYP:1
+%MX 1.60155.0		     
+
+;
+
+@V 2 349 0
+AXIO_DIAG_STATUS_REG_SYSFAIL	252	VAR_GLOBAL	@TYP:1
+%MX 1.60141.0		     
+
+;
+
+@V 2 350 0
+PNIO_FORCE_FAILSAFE	253	VAR_GLOBAL	@TYP:1
+%MX 3.61100.0		     
+
+;
+
+@V 2 351 0
+PNIO_CONFIG_STATUS	254	VAR_GLOBAL	@TYP:18
+%MW 1.60200		     
+
+;
+
+@V 2 352 0
+PNIO_CONFIG_STATUS_READY	255	VAR_GLOBAL	@TYP:1
+%MX 1.60202.0		     
+
+;
+
+@V 2 353 0
+PNIO_CONFIG_STATUS_ACTIVE	256	VAR_GLOBAL	@TYP:1
+%MX 1.60203.0		     
+
+;
+
+@V 2 354 0
+PNIO_CONFIG_STATUS_CFG_FAULT	257	VAR_GLOBAL	@TYP:1
+%MX 1.60204.0		     
+
+;
+
+@V 2 355 0
+PNIO_SYSTEM_BF	258	VAR_GLOBAL	@TYP:1
+%MX 1.60208.0		     
+
+;
+
+@V 2 356 0
+PNIO_SYSTEM_SF	259	VAR_GLOBAL	@TYP:1
+%MX 1.60210.0		     
+
+;
+
+@V 2 357 0
+PNIO_DIAG_AVAILABLE	260	VAR_GLOBAL	@TYP:1
+%MX 1.60214.0		     
+
+;
+
+@V 2 358 0
+PNIO_MAINTENANCE_REQUIRED	261	VAR_GLOBAL	@TYP:1
+%MX 1.60215.0		     
+
+;
+
+@V 2 359 0
+PNIO_MAINTENANCE_DEMANDED	262	VAR_GLOBAL	@TYP:1
+%MX 1.60216.0		     
+
+;
+
+@V 2 360 0
+PND_S1_PLC_RUN	263	VAR_GLOBAL	@TYP:1
+%IX 63972.0		     
+
+;
+
+@V 2 361 0
+PND_S1_VALID_DATA_CYCLE	264	VAR_GLOBAL	@TYP:1
+%IX 63973.0		     
+
+;
+
+@V 2 362 0
+PND_S1_OUTPUT_STATUS_GOOD	265	VAR_GLOBAL	@TYP:1
+%IX 63974.0		     
+
+;
+
+@V 2 363 0
+PND_S1_INPUT_STATUS_GOOD	266	VAR_GLOBAL	@TYP:1
+%IX 63975.0		     
+
+;
+
+@V 2 364 0
+PND_S1_DATA_LENGTH	267	VAR_GLOBAL	@TYP:18
+%IW 63976		     
+
+;
+
+@V 2 365 0
+PND_S1_OUTPUTS	268	VAR_GLOBAL	@TYP:1033
+%QB 63988		     
+
+;
+
+@V 2 366 0
+PND_S1_INPUTS	269	VAR_GLOBAL	@TYP:1033
+%IB 63988		     
+
+;
+
+@V 2 367 0
+PND_IO_DRIVEN_BY_PLC	270	VAR_GLOBAL	@TYP:3
+%IW 63978		     
+
+;
+
+@V 2 368 0
+COP_DIAG_STATUS_REG_RT_ERR	271	VAR_GLOBAL	@TYP:1
+%MX 1.60156.0		     
+
+;
+
+@V 2 369 0
+COP_DIAG_STATUS_REG_FAT_ERR	272	VAR_GLOBAL	@TYP:1
+%MX 1.60157.0		     
+
+;
+
+@V 2 370 0
+COP_DIAG_STATUS_REG_WARN	273	VAR_GLOBAL	@TYP:1
+%MX 1.60158.0		     
+
+;
+
+@V 2 371 0
+COP_DIAG_STATUS_REG_PON	274	VAR_GLOBAL	@TYP:1
+%MX 1.60159.0		     
+
+;
+
+@V 2 372 0
+COP_DIAG_STATUS_REG_FC_RUN	275	VAR_GLOBAL	@TYP:1
+%MX 1.60160.0		     
+
+;
+
+@V 2 373 0
+COP_DIAG_STATUS_REG_FC_STOP	276	VAR_GLOBAL	@TYP:1
+%MX 1.60161.0		     
+
+;
+
+@V 2 374 0
+COP_DIAG_STATUS_REG_FC_HALT	277	VAR_GLOBAL	@TYP:1
+%MX 1.60162.0		     
+
+;
+
+@V 2 375 0
+COP_DIAG_STATUS_REG_FC_LDG	278	VAR_GLOBAL	@TYP:1
+%MX 1.60163.0		     
+
+;
+
+@V 2 376 0
+COP_DIAG_STATUS_REG_FC_DBG	279	VAR_GLOBAL	@TYP:1
+%MX 1.60164.0		     
+
+;
+
+@V 2 377 0
+COP_DIAG_STATUS_REG_FC_RDO	280	VAR_GLOBAL	@TYP:1
+%MX 1.60165.0		     
+
+;
+
+@V 2 378 0
+COP_DIAG_PARAM_REG	281	VAR_GLOBAL	@TYP:18
+%MW 1.60022		     
+
+;
+
+@V 2 379 0
+COP_DIAG_PARAM_2_REG	282	VAR_GLOBAL	@TYP:18
+%MW 1.60024		     
+
+;
+
+@V 2 380 0
+UPS_BATTERY_OK	283	VAR_GLOBAL	@TYP:1
+%MX 1.60175.0		     
+
+;
+
+@V 2 381 0
+COP_CPU_LOAD_WARNING	284	VAR_GLOBAL	@TYP:1
+%MX 1.60182.0		     
+
+;
+
+@V 2 382 0
+RTC_BATTERY_LOW	285	VAR_GLOBAL	@TYP:1
+%MX 1.60166.0		     
+
+;
+
+@V 2 383 0
+RTC_DATA_INVALID	286	VAR_GLOBAL	@TYP:1
+%MX 1.60167.0		     
+
+;
+
+@V 2 384 0
+FLASHCARD_PRESENT	287	VAR_GLOBAL	@TYP:1
+%MX 1.60168.0		     
+
+;
+
+@V 2 385 0
+POWER_SUPPLY_MAIN_OK	288	VAR_GLOBAL	@TYP:1
+%MX 1.60171.0		     
+
+;
+
+@V 2 386 0
+KEY_SWITCH_RESET	289	VAR_GLOBAL	@TYP:1
+%MX 1.60178.0		     
+
+;
+
+@V 2 387 0
+KEY_SWITCH_STOP	290	VAR_GLOBAL	@TYP:1
+%MX 1.60179.0		     
+
+;
+
+@V 2 388 0
+KEY_SWITCH_RUN_PROG	291	VAR_GLOBAL	@TYP:1
+%MX 1.60181.0		     
+
+;
+
+@V 2 389 0
+LAN_PORT1_1_LINK	292	VAR_GLOBAL	@TYP:1
+%MX 1.60220.0		     
+
+;
+
+@V 2 390 0
+LAN_PORT1_2_LINK	293	VAR_GLOBAL	@TYP:1
+%MX 1.60223.0		     
+
+;
+
+@V 2 391 0
+RTC_HOURS	294	VAR_GLOBAL	@TYP:3
+%MW 1.60060		     
+
+;
+
+@V 2 392 0
+RTC_MINUTES	295	VAR_GLOBAL	@TYP:3
+%MW 1.60062		     
+
+;
+
+@V 2 393 0
+RTC_SECONDS	296	VAR_GLOBAL	@TYP:3
+%MW 1.60064		     
+
+;
+
+@V 2 394 0
+RTC_DAY	297	VAR_GLOBAL	@TYP:3
+%MW 1.60068		     
+
+;
+
+@V 2 395 0
+RTC_MONTH	298	VAR_GLOBAL	@TYP:3
+%MW 1.60070		     
+
+;
+
+@V 2 396 0
+RTC_YEAR	299	VAR_GLOBAL	@TYP:3
+%MW 1.60072		     
+
+;
+
+@V 2 397 0
+PND_RESET_FACTORY_SETTINGS	300	VAR_GLOBAL	@TYP:18
+%MW 3.61060		     
+
+;
+
+@V 2 398 0
+CLOCK_PULSE_1S	301	VAR_GLOBAL	@TYP:1
+%MX 1.100.0		     
+
+;
+
+@V 2 399 0
+CLOCK_PULSE_2S	302	VAR_GLOBAL	@TYP:1
+%MX 1.101.0		     
+
+;
+
+@V 2 400 0
+CLOCK_PULSE_5S	303	VAR_GLOBAL	@TYP:1
+%MX 1.102.0		     
+
+;
+
+@V 2 401 0
+CLOCK_PULSE_10S	304	VAR_GLOBAL	@TYP:1
+%MX 1.103.0		     
+
+;
+
+@V 2 402 0
+DISABLE_CLOCK_PULSE	305	VAR_GLOBAL	@TYP:1
+%MX 2.2.0		     
+
+;
+
+@V 2 403 0
+PLC_HAS_PRJ_CMP_DATA	306	VAR_GLOBAL	@TYP:1
+%MX 1.110.0		     
+
+;
+
+@V 2 404 0
+PLC_HAS_PRJ_BOOT	307	VAR_GLOBAL	@TYP:1
+%MX 1.2041.0		     
+
+;
+
+@V 2 405 0
+IS_EXECUTING_BOOT_PROJECT	308	VAR_GLOBAL	@TYP:1
+%MX 1.2042.0		     
+
+;
+
+@V 2 406 0
+IS_PRJ_RAM_AND_BOOT_CONSISTENT	309	VAR_GLOBAL	@TYP:1
+%MX 1.2043.0		     
+
+;
+
+@V 2 407 0
+PLC_HAS_PRJ_SRC	310	VAR_GLOBAL	@TYP:1
+%MX 1.2044.0		     
+
+;
+
+@V 2 408 0
+PLC_PRJ_NAME	311	VAR_GLOBAL	@STR:0
+%MB 1.200		     
+
+;
+
+@V 2 409 0
+PLC_CFG_NAME	312	VAR_GLOBAL	@STR:0
+%MB 1.300		     
+
+;
+
+@V 2 410 0
+PLC_RES_NAME	313	VAR_GLOBAL	@STR:0
+%MB 1.400		     
+
+;
+
+@V 2 411 0
+DC_AMOUNT	314	VAR_GLOBAL	@TYP:8
+%MD 1.3072		     
+
+;
+

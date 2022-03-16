@@ -1,0 +1,12 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 35
+QSL: 1
+QJM: 0
+QJ: 0
+QR: 0
+*)
+		@NETWORK_BEGIN	
+@BPV 1 2 0		CAL	@IFB 1
+		@NETWORK_END	
